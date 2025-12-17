@@ -1,0 +1,826 @@
+@font-face {
+    font-family: vazir;
+    src: url('Fonts/Vazir.eot');
+    src: url('Fonts/Vazir.eot?#iefix')format(embedded-opentype),
+         url('Fonts/Vazir.woff2')format('woff2'),
+         url('Fonts/Vazir.woff')format('woff'),
+         url('Fonts/Vazir.ttf')format('truetype');
+
+    font-weight: normal;
+    font-style: normal;     
+}
+body {
+    margin: 0;
+    background-color: rgb(20, 20, 20);
+}
+.header {
+    background-color: rgb(54, 55, 55);
+    font-family: vazir;
+    padding: 0;
+    height: 250px;
+}
+.header h1 {
+    float: left;
+    font-size: 35px;
+    color: rgb(238, 237, 220);
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 660px;
+    
+}
+.ip {
+  cursor: pointer;
+  padding: 8px 8px;
+  text-align: center;
+}
+.ip button {
+    color: rgb(0, 0, 0);
+    font-family: vazir;
+    background-color: rgb(255, 183, 0);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    font-size: 20px;
+    -o-border-radius: 15px;
+}
+.menu {
+    background-color: rgb(35, 36, 36);
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 80px;
+    height: 80px;
+    font-family: vazir;
+}
+.menu ul {
+    margin: 0;
+}
+.menu li {
+    display: inline-block;
+    margin-top: 25px;
+    padding-right: 255px;
+    font-size: 20px;
+}
+.menu ul a {
+    text-decoration: none;
+    background-color: rgb(27, 112, 187);
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.menu ul a:hover {
+    background-color: rgb(58, 59, 58);
+    color: rgb(34, 126, 201);
+}
+.menu li a:active {
+    position: relative;
+    top: 3px;
+}
+.info {
+    background-color: rgb(25, 25, 25);
+    padding: 0;
+    height: 350px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-top: 40px;
+    width: 800px;
+    margin-right: 600px;
+}
+.info h1 {
+    font-family: vazir;
+    color : white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+
+    
+}
+.info h2 {
+    font-family: vazir;
+    color : white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.info:hover {
+    position: relative;
+    bottom: 3px;
+}
+
+.discord ul {
+    margin: 0;
+}
+.discord li {
+    display: inline-block;
+    margin-top: 25px;
+    padding-right: 275px;
+    font-size: 15px;
+    font-family: vazir;
+}
+.discord ul a {
+    text-decoration: none;
+    background-color: rgb(255, 183, 0);
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.discord ul a:hover {
+    background-color: rgb(58, 59, 58);
+    color: rgb(255, 255, 255);
+}
+.discord li a:active {
+    position: relative;
+    top: 5px;
+}
+.header-discord {
+    background-color: rgb(54, 55, 55);
+    font-family: vazir;
+    padding: 0;
+    height: 250px;
+}
+.header-discord h1 {
+    float: left;
+    font-size: 35px;
+    color: rgb(238, 237, 220);
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 760px;
+    
+}
+.header-rank {
+    background-color: rgb(54, 55, 55);
+    font-family: vazir;
+    padding: 0;
+    height: 250px;
+}
+.header-rank h1 {
+    float: left;
+    font-size: 35px;
+    color: rgb(238, 237, 220);
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 760px;
+}
+.iron {
+    background-color: rgb(25, 25, 25);
+    padding: 0;
+    height: 350px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-top: 50px;
+    width: 800px;
+    margin-right: 600px;
+}
+
+.iron h1 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+    margin-left: 340px; 
+}
+.iron h2 {
+    color: white;
+    font-family: vazir;
+    margin-top: 15px;
+    float: left;
+    margin-right: 20px;
+}
+.iron h3 {
+    color: white;
+    font-family: vazir;
+    margin-top: 15px;
+    float: left;
+    margin-left: 320px;
+    
+}
+.gold {
+    background-color: rgb(25, 25, 25);
+    padding: 0;
+    height: 350px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-top: 50px;
+    width: 800px;
+    margin-right: 600px;
+}
+.gold h1 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+    margin-left: 340px; 
+}
+.gold h2 {
+    color: white;
+    font-family: vazir;
+    margin-top: 15px;
+    float: left;
+    margin-right: 20px;
+}
+.gold h3 {
+    color: white;
+    font-family: vazir;
+    margin-top: 15px;
+    float: left;
+    margin-left: 320px;
+}
+.emerald {
+    background-color: rgb(25, 25, 25);
+    padding: 0;
+    height: 350px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-top: 50px;
+    width: 800px;
+    margin-right: 600px;
+}
+.emerald h1 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+    margin-left: 340px; 
+}
+.emerald h2 {
+    color: white;
+    font-family: vazir;
+    margin-top: 15px;
+    float: left;
+    margin-right: 20px;
+}
+.emerald h3 {
+    color: white;
+    font-family: vazir;
+    margin-top: 15px;
+    float: left;
+    margin-left: 320px;
+}
+.rank-list {
+    font-family: vazir;
+    color: white;
+    background-color: rgb(97, 94, 94);
+    font-size: 25px;
+}
+.diamond {
+    background-color: rgb(25, 25, 25);
+    padding: 0;
+    height: 350px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-top: 50px;
+    width: 800px;
+    margin-right: 600px;
+}
+.diamond h1 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+    margin-left: 340px; 
+}
+.diamond h2 {
+    color: white;
+    font-family: vazir;
+    margin-top: 15px;
+    float: left;
+    margin-right: 20px;
+} 
+.diamond h3 {
+    color: white;
+    font-family: vazir;
+    margin-top: 15px;
+    float: left;
+    margin-left: 320px;
+}
+.netherite {
+    background-color: rgb(25, 25, 25);
+    padding: 0;
+    height: 350px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-top: 50px;
+    width: 800px;
+    margin-right: 600px;
+}
+.netherite h1 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+    margin-left: 340px; 
+}
+.netherite h2 {
+    color: white;
+    font-family: vazir;
+    margin-top: 15px;
+    float: left;
+    margin-right: 20px;
+}
+.netherite h3 {
+    color: white;
+    font-family: vazir;
+    margin-top: 15px;
+    float: left;
+    margin-left: 320px;
+}
+.nebrix {
+    background-color: rgb(25, 25, 25);
+    padding: 0;
+    height: 350px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-top: 50px;
+    width: 800px;
+    margin-right: 600px;
+}
+.nebrix h1 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+    margin-left: 340px; 
+}
+.nebrix h2 {
+    color: white;
+    font-family: vazir;
+    margin-top: 15px;
+    float: left;
+    margin-right: 20px;
+}
+.nebrix h3 {
+    color: white;
+    font-family: vazir;
+    margin-top: 15px;
+    float: left;
+    margin-left: 320px;
+}
+.edame-home {
+    background-color: rgb(128, 190, 226);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 500px;
+    height: 100px;
+    margin-top: 150px;
+    margin-right: 750px;
+}
+.edame-home h1 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+    margin-left: 30px;
+}
+.edame-home:hover {
+    position: relative;
+    bottom: 5px;
+}
+.edame-1 {
+    background-color: rgb(128, 190, 226);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 600px;
+    height: 200px;
+    margin-top: 100px;
+    margin-right: 1100px;
+}
+.edame-1 h2 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+    margin-left: 230px;
+}
+.edame-1 h3 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+    margin-left: 100px;
+}
+.edame-1:hover {
+    position: relative;
+    bottom: 5px;
+}
+.edame-2 {
+    background-color: rgb(128, 190, 226);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 600px;
+    height: 200px;
+    margin-top: -200px;
+    margin-right: 260px;
+}
+.edame-2:hover {
+    position: relative;
+    bottom: 5px;
+}
+.edame-2 h2 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: -60px;
+    float: left;
+    margin-left: 230px;
+}
+.edame-2 h3 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+    margin-left: 100px;
+}
+.edame-3 {
+    background-color: rgb(128, 190, 226);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 600px;
+    height: 200px;
+    margin-top: 100px;
+    margin-right: 1100px;
+}
+.edame-3:hover {
+    position: relative;
+    bottom: 5px;
+}
+.edame-3 h2 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+    margin-left: 230px;
+}
+.edame-3 h3{
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+    margin-left: 100px;   
+}
+.edame-4 {
+    background-color: rgb(128, 190, 226);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 600px;
+    height: 200px;
+    margin-top: -200px;
+    margin-right: 260px;
+}
+.edame-4:hover {
+    position: relative;
+    bottom: 5px;
+}
+.edame-4 h2 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: -60px;
+    float: left;
+    margin-left: 230px;
+}
+.edame-4 h3 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+    margin-left: 100px;
+}
+.footer {
+    background-color: rgb(67, 66, 66);
+    padding: 0;
+    margin-top: 100px;
+    height: 150px;
+}
+.footer h2 {
+    color: rgb(238, 237, 220);
+    margin-top: 30px;
+    float: left;
+    width: 400px;
+    font-family: vazir;
+    font-size: 20px;
+    margin-left: 700px;
+}
+.ganone-1 {
+    background-color: rgb(25, 25, 25);
+    padding: 0;
+    height: 300px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-top: 100px;
+    width: 800px;
+    margin-right: 600px;
+}
+
+.ganone-1 h1 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+    margin-left: 270px; 
+}
+.ganone-1 h2 {
+    color: white;
+    font-family: vazir;
+    margin-top: 15px;
+    float: left;
+    margin-right: 20px;
+}
+.ganone-1:hover {
+    position: relative;
+    bottom: 15px;
+}
+.ganone-2 {
+    background-color: rgb(25, 25, 25);
+    padding: 0;
+    height: 300px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-top: 100px;
+    width: 800px;
+    margin-right: 600px;
+}
+
+.ganone-2 h1 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+    margin-left: 270px; 
+}
+.ganone-2 h2 {
+    color: white;
+    font-family: vazir;
+    margin-top: 15px;
+    float: left;
+    margin-right: 20px;
+}
+.ganone-2:hover {
+    position: relative;
+    bottom: 15px;
+}
+.ganone-3 {
+    background-color: rgb(25, 25, 25);
+    padding: 0;
+    height: 300px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-top: 100px;
+    width: 800px;
+    margin-right: 600px;
+}
+
+.ganone-3 h1 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+    margin-left: 270px; 
+}
+.ganone-3 h2 {
+    color: white;
+    font-family: vazir;
+    margin-top: 15px;
+    float: left;
+    margin-left: 120px;
+}
+.ganone-3:hover {
+    position: relative;
+    bottom: 15px;
+}
+.ganone-4 {
+    background-color: rgb(25, 25, 25);
+    padding: 0;
+    height: 300px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-top: 100px;
+    width: 800px;
+    margin-right: 600px;
+}
+
+.ganone-4 h1 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+    margin-left: 300px; 
+}
+.ganone-4 h2 {
+    color: white;
+    font-family: vazir;
+    margin-top: 15px;
+    float: left;
+    margin-left: 140px;
+}
+.ganone-4:hover {
+    position: relative;
+    bottom: 15px;
+}
+.ganone-5 {
+    background-color: rgb(25, 25, 25);
+    padding: 0;
+    height: 300px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-top: 100px;
+    width: 800px;
+    margin-right: 600px;
+}
+
+.ganone-5 h1 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+    margin-left: 300px; 
+}
+.ganone-5 h2 {
+    color: white;
+    font-family: vazir;
+    margin-top: 15px;
+    float: left;
+    margin-right: 20px;
+}
+.ganone-5:hover {
+    position: relative;
+    bottom: 15px;
+}
+.ganone-6 {
+    background-color: rgb(25, 25, 25);
+    padding: 0;
+    height: 300px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-top: 100px;
+    width: 800px;
+    margin-right: 600px;
+}
+
+.ganone-6 h1 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+    margin-left: 230px; 
+}
+.ganone-6 h2 {
+    color: white;
+    font-family: vazir;
+    margin-top: 15px;
+    float: left;
+    margin-right: 20px;
+}
+.ganone-6:hover {
+    position: relative;
+    bottom: 15px;
+}.ganone-7 {
+    background-color: rgb(25, 25, 25);
+    padding: 0;
+    height: 300px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-top: 100px;
+    width: 800px;
+    margin-right: 600px;
+}
+
+.ganone-7 h1 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+    margin-left: 350px; 
+}
+.ganone-7 h2 {
+    color: white;
+    font-family: vazir;
+    margin-top: 15px;
+    float: left;
+    margin-right: 20px;
+}
+.ganone-7:hover {
+    position: relative;
+    bottom: 15px;
+}
+.faleyat-dis {
+    background-color: rgb(28, 28, 28);
+    width: 1000px;
+    height: 700px;
+    margin-top: 150px;
+    margin-right: 480px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    box-shadow: white;
+}
+.faleyat-dis h1 {
+    color: rgb(245, 245, 173);
+    margin-top: 60px;
+    margin-left: 320px;
+    float: left;
+    font-family: VAZIR;
+}
+.faleyat-dis h2 {
+    color: white;
+    font-family: vazir;
+    float: left;
+    width: 1000px;
+    margin-left:-270px;
+    margin-top: 40px;
+}
+.haminjori {
+    margin-top: 100px;
+}
+.faleyat-dis:hover {
+    position: relative;
+    bottom: 12px;
+}
