@@ -9,6 +9,12 @@
     font-weight: normal;
     font-style: normal;     
 }
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
 body {
     margin: 0;
     background-color: rgb(20, 20, 20);
@@ -824,3 +830,4 @@ body {
     position: relative;
     bottom: 12px;
 }
+
