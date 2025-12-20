@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
 
     * {
         box-sizing: border-box;
@@ -1512,3 +1512,4 @@ body {
     position: relative;
     top: 3px;
 }
+
