@@ -183,3 +183,27 @@ button:hover {
     align-items: center !important;
   }
 }
+/* کارت‌ها - موبایل و دسکتاپ مرتب */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.cards-container .card {
+  width: 100%; /* موبایل */
+}
+
+@media (min-width: 768px) {
+  .cards-container .card {
+    width: calc(50% - 15px); /* دسکتاپ 2 تا در ردیف */
+  }
+}
+
+@media (min-width: 1024px) {
+  .cards-container .card {
+    width: calc(33.33% - 15px); /* دسکتاپ بزرگ 3 تا در ردیف */
+  }
+}
+
