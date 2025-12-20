@@ -13,6 +13,9 @@
     }
 
     /* ---------- هدر ---------- */
+    .header {
+        
+    }
     .header h1 {
         font-size: 22px;
         padding: 10px;
@@ -35,7 +38,6 @@
 
     /* ---------- دکمه کپی IP ---------- */
     .ip button {
-        width: 100%;
         padding: 12px 15px;
         font-size: 16px;
     }
@@ -74,11 +76,7 @@
         line-height: 1.6;
     }
 
-    /* ---------- رفع مشکلات احتمالی ---------- */
-    img, video {
-        max-width: 100%;
-        height: auto;
-    }
+
 }
 
 @font-face {
@@ -132,7 +130,6 @@ body {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     height: 80px;
-    height: 80px;
     font-family: vazir;
 }
 .menu ul {
@@ -141,7 +138,7 @@ body {
 .menu li {
     display: inline-block;
     margin-top: 25px;
-    padding-right: 255px;
+    padding-right: 200px;
     font-size: 20px;
 }
 .menu ul a {
@@ -165,9 +162,9 @@ body {
     top: 3px;
 }
 .info {
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(43, 42, 42);
     padding: 0;
-    height: 350px;
+    height: 430px;
     border-radius: 40px;
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
@@ -196,6 +193,7 @@ body {
 .info:hover {
     position: relative;
     bottom: 3px;
+    background-color:rgb(36, 35, 35);    
 }
 
 .discord ul {
@@ -643,7 +641,7 @@ body {
     margin-left: 700px;
 }
 .ganone-1 {
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(59, 58, 58);
     padding: 0;
     height: 300px;
     border-radius: 40px;
@@ -676,7 +674,7 @@ body {
     bottom: 15px;
 }
 .ganone-2 {
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(59, 58, 58);
     padding: 0;
     height: 300px;
     border-radius: 40px;
@@ -709,7 +707,7 @@ body {
     bottom: 15px;
 }
 .ganone-3 {
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(59, 58, 58);
     padding: 0;
     height: 300px;
     border-radius: 40px;
@@ -742,7 +740,7 @@ body {
     bottom: 15px;
 }
 .ganone-4 {
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(59, 58, 58);
     padding: 0;
     height: 300px;
     border-radius: 40px;
@@ -775,7 +773,7 @@ body {
     bottom: 15px;
 }
 .ganone-5 {
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(59, 58, 58);
     padding: 0;
     height: 300px;
     border-radius: 40px;
@@ -808,7 +806,7 @@ body {
     bottom: 15px;
 }
 .ganone-6 {
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(59, 58, 58);
     padding: 0;
     height: 300px;
     border-radius: 40px;
@@ -839,8 +837,9 @@ body {
 .ganone-6:hover {
     position: relative;
     bottom: 15px;
-}.ganone-7 {
-    background-color: rgb(25, 25, 25);
+}
+.ganone-7 {
+    background-color: rgb(59, 58, 58);
     padding: 0;
     height: 300px;
     border-radius: 40px;
@@ -906,4 +905,389 @@ body {
 .faleyat-dis:hover {
     position: relative;
     bottom: 12px;
+}
+.header-shop {
+    background-color: rgb(54, 55, 55);
+    font-family: vazir;
+    padding: 0;
+    height: 250px;
+}
+.header-shop h1 {
+    float: left;
+    font-size: 35px;
+    color: rgb(238, 237, 220);
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 730px;
+}
+.soon-shop {
+    height: 60px;
+    width: 800px;
+    margin-top: 100px;
+    margin-right: 570px;
+    border: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.soon-shop ul {
+    margin: 0;
+}
+.soon-shop li {
+    display: inline-block;
+    margin-top: 25px;
+    padding-right: 160px;
+    font-size: 20px;
+    font-family: vazir;
+    width: 700px;
+    height: 100px;
+}
+.soon-shop ul a {
+    text-decoration: none;
+    background-color: rgb(80, 102, 102);
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.soon-shop ul a:hover {
+    background-color: rgb(199, 204, 199);
+    color: rgb(45, 46, 47);
+    position: relative; 
+}
+.akhbar-home {
+    background-color: rgb(128, 190, 226);
+    height: 150px;
+    margin-top: 150px;
+    width: 400px;
+    margin-right: 800px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.akhbar-home:hover {
+    position: relative;
+    bottom: 5px;
+}
+.akhbar-home h1 {
+    color: white;
+    margin-top: 40px;
+    float: left;
+    margin-left: 60px;
+    font-family: vazir;
+}
+.khabar-1 {
+    background-color: rgb(128, 190, 226);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 600px;
+    height: 200px;
+    margin-top: 100px;
+    margin-right: 1100px;
+}
+.khabar-1 h2 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 70px;
+    float: left;
+    margin-left: 130px;
+    font-size: 21px;
+}
+.khabar-1:hover {
+    position: relative;
+    bottom: 5px;
+}
+.khabar-2 {
+    background-color: rgb(128, 190, 226);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 600px;
+    height: 200px;
+    margin-top: -200px;
+    margin-right: 260px;
+}
+.khabar-2 h2 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 10px;
+    float: left;
+    margin-left: 230px;
+}
+.khabar-2 h3 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+    margin-left: 200px;
+}
+.khabar-2:hover {
+    position: relative;
+    bottom: 5px;
+}
+.header-amozesh {
+    background-color: rgb(54, 55, 55);
+    font-family: vazir;
+    padding: 0;
+    height: 250px;
+}
+.header-amozesh h1 {
+    float: left;
+    font-size: 35px;
+    color: rgb(238, 237, 220);
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 820px;
+}
+.claim-toturial {
+    /*colors*/
+    background-color: rgb(128, 190, 226);
+    /*andaze*/
+    width: 1000px;
+    height: 600px;
+    border-radius: 45px;
+    /*margins*/margin-right: 470px;
+    margin-top: 200px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+}
+.claim-toturial h1 {
+    color: rgb(250, 247, 197);
+    margin-left: 400px;
+    margin-top: 70px;
+    font-family: vazir;
+    float: left;
+}
+.claim-toturial p {
+    color: rgb(255, 252, 195);
+    font-family: vazir;
+    font-size: 30px;
+    float: left;
+    margin: 5px;
+    margin-top: 100px;
+}
+.claim-toturial:hover {
+    position: relative;
+    bottom: 5px;
+    background-color: rgb(91, 147, 179);
+}
+.shop-toturial {
+    /*colors*/
+    background-color: rgb(128, 190, 226);
+    /*andaze*/
+    width: 1000px;
+    height: 550px;
+    border-radius: 45px;
+    /*margins*/margin-right: 470px;
+    margin-top: 200px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+}
+.shop-toturial h1 {
+    color: rgb(250, 247, 197);
+    margin-left: 350px;
+    margin-top: 70px;
+    font-family: vazir;
+    float: left;
+}
+.shop-toturial p {
+    color: rgb(255, 252, 195);
+    font-family: vazir;
+    font-size: 30px;
+    float: left;
+    margin: 5px;
+    margin-top: 100px;
+}
+.shop-toturial:hover {
+    position: relative;
+    bottom: 5px;
+    background-color: rgb(91, 147, 179);
+}
+.money-toturial {
+    /*colors*/
+    background-color: rgb(128, 190, 226);
+    /*andaze*/
+    width: 1000px;
+    height: 450px;
+    border-radius: 45px;
+    /*margins*/margin-right: 470px;
+    margin-top: 200px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+}
+.money-toturial h1 {
+    color: rgb(250, 247, 197);
+    margin-left: 425px;
+    margin-top: 70px;
+    font-family: vazir;
+    float: left;
+}
+.money-toturial p {
+    color: rgb(255, 252, 195);
+    font-family: vazir;
+    font-size: 30px;
+    float: left;
+    margin: 5px;
+    margin-top: 100px;
+}
+.money-toturial:hover {
+    position: relative;
+    bottom: 5px;
+    background-color: rgb(91, 147, 179);
+}
+.tpa-toturial {
+    /*colors*/
+    background-color: rgb(128, 190, 226);
+    /*andaze*/
+    width: 1000px;
+    height: 550px;
+    border-radius: 45px;
+    /*margins*/margin-right: 470px;
+    margin-top: 200px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+}
+.tpa-toturial h1 {
+    color: rgb(250, 247, 197);
+    margin-left: 425px;
+    margin-top: 70px;
+    font-family: vazir;
+    float: left;
+}
+.tpa-toturial p {
+    color: rgb(255, 252, 195);
+    font-family: vazir;
+    font-size: 30px;
+    float: left;
+    margin: 5px;
+    margin-top: 100px;
+}
+.tpa-toturial:hover {
+    position: relative;
+    bottom: 5px;
+    background-color: rgb(91, 147, 179);
+}
+.warp-toturial {
+    /*colors*/
+    background-color: rgb(128, 190, 226);
+    /*andaze*/
+    width: 1000px;
+    height: 450px;
+    border-radius: 45px;
+    /*margins*/margin-right: 470px;
+    margin-top: 200px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+}
+.warp-toturial h1 {
+    color: rgb(250, 247, 197);
+    margin-left: 425px;
+    margin-top: 70px;
+    font-family: vazir;
+    float: left;
+}
+.warp-toturial p {
+    color: rgb(255, 252, 195);
+    font-family: vazir;
+    font-size: 30px;
+    float: left;
+    margin: 5px;
+    margin-top: 100px;
+}
+.warp-toturial:hover {
+    position: relative;
+    bottom: 5px;
+    background-color: rgb(91, 147, 179);
+}
+.toturial-list {
+    background-color: rgb(91, 147, 179);
+    color: rgb(255, 252, 195);
+    height: 30px;
+    font-family: vazir;
+    font-size: 20px;
+}
+.info-2 {
+    background-color: rgb(43, 42, 42);
+    padding: 0;
+    height: 230px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-top: 60px;
+    width: 800px;
+    margin-right: 600px;
+}
+.info-2 h1 {
+    font-family: vazir;
+    color : white;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 50px;   
+}
+.info-2:hover {
+    position: relative;
+    bottom: 5px;
+    background-color:rgb(36, 35, 35);
+}
+.info-2 ul {
+    margin: 0;
+}
+.info-2 li {
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 100px;
+    padding-right: 200px;
+    font-size: 20px;
+}
+.info-2 ul a {
+    text-decoration: none;
+    background-color: rgb(27, 112, 187);
+    margin-bottom: 0px;
+    float: left;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: vazir;
+}
+.info-2 ul a:hover {
+    background-color: rgb(58, 59, 58);
+    color: rgb(34, 126, 201);
+}
+.info-2 li a:active {
+    position: relative;
+    top: 3px;
 }
