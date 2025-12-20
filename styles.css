@@ -37,13 +37,13 @@ ul {
 h1, h2, h3 {
   font-weight: 700;
 }
-
-/* ======================
-   LAYOUT HELPERS
-====================== */
 header {
   background-color: rgb(54, 55, 55);
 }
+/* ======================
+   LAYOUT HELPERS
+====================== */
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -216,6 +216,7 @@ button:hover {
     width: calc(33.33% - 15px); /* دسکتاپ بزرگ 3 تا در ردیف */
   }
 }
+
 
 
 
