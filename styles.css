@@ -193,12 +193,12 @@
 
 /* موبایل */
 @media (max-width: 767px) {
-  .menu ul {
-    display: none; /* اول مخفی */
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
+.menu ul {
+  display: flex !important; /* موقت */
+  flex-direction: column;
+  align-items: center;
+}
+
 
   .menu ul.active {
     display: flex;
@@ -212,4 +212,5 @@
     margin: 8px 0;
   }
 }
+
 
