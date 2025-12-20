@@ -1,74 +1,3 @@
-@media screen and (max-width: 768px) {
-
-    * {
-        box-sizing: border-box;
-    }
-
-    body {
-        overflow-x: hidden;
-    }
-
-    /* همه باکس‌های اصلی */
-    .info,
-    .info-2,
-    .edame-home,
-    .edame-1,
-    .edame-2,
-    .edame-3,
-    .edame-4,
-    .akhbar-home,
-    .khabar-1,
-    .khabar-2,
-    .iron,
-    .gold,
-    .emerald,
-    .diamond,
-    .netherite,
-    .nebrix,
-    .ganone-1,
-    .ganone-2,
-    .ganone-3,
-    .ganone-4,
-    .ganone-5,
-    .ganone-6,
-    .ganone-7,
-    .claim-toturial,
-    .shop-toturial,
-    .money-toturial,
-    .tpa-toturial,
-    .warp-toturial,
-    .faleyat-dis {
-
-        width: 95% !important;
-        max-width: 100% !important;
-        margin: 20px auto !important;
-        height: auto !important;
-        float: none !important;
-    }
-
-    /* متن‌ها */
-    h1, h2, h3, p {
-        float: none !important;
-        margin: 10px auto !important;
-        text-align: center !important;
-    }
-
-    /* منو */
-    .menu {
-        height: auto;
-    }
-
-    .menu ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .menu li {
-        padding-right: 0;
-        margin: 10px 0;
-    }
-}
 
 
 @font-face {
@@ -1283,3 +1212,89 @@ body {
     position: relative;
     top: 3px;
 }
+/************ MOBILE FIX (FINAL) ************/
+@media screen and (max-width: 768px) {
+
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /* همه باکس‌ها */
+    div {
+        max-width: 100% !important;
+    }
+
+    .info,
+    .info-2,
+    .edame-home,
+    .edame-1,
+    .edame-2,
+    .edame-3,
+    .edame-4,
+    .akhbar-home,
+    .khabar-1,
+    .khabar-2,
+    .iron,
+    .gold,
+    .emerald,
+    .diamond,
+    .netherite,
+    .nebrix,
+    .ganone-1,
+    .ganone-2,
+    .ganone-3,
+    .ganone-4,
+    .ganone-5,
+    .ganone-6,
+    .ganone-7,
+    .claim-toturial,
+    .shop-toturial,
+    .money-toturial,
+    .tpa-toturial,
+    .warp-toturial,
+    .faleyat-dis {
+
+        width: 95vw !important;
+        margin: 20px auto !important;
+        height: auto !important;
+        float: none !important;
+    }
+
+    /* متن‌ها */
+    h1, h2, h3, p {
+        float: none !important;
+        margin: 10px auto !important;
+        text-align: center !important;
+        font-size: 90%;
+    }
+
+    /* header */
+    .header,
+    .header h1 {
+        margin: 0 !important;
+        float: none !important;
+        text-align: center;
+    }
+
+    /* منو */
+    .menu {
+        height: auto;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li {
+        padding-right: 0 !important;
+        margin: 8px 0;
+    }
+}
+
