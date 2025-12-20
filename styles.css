@@ -1,83 +1,75 @@
-/* =================== موبایل =================== */
 @media screen and (max-width: 768px) {
 
-    /* ---------- منو ---------- */
-    .menu ul {
-        flex-direction: column;  /* منو ستونی بشه */
-        align-items: center;
-        gap: 10px;  /* فاصله بین آیتم‌ها */
-        padding: 0;
-    }
-    .menu li {
-        margin: 10px 0;
+    * {
+        box-sizing: border-box;
     }
 
-    /* ---------- هدر ---------- */
-    .header {
-        width: 100%;
-    }
-    .header h1 {
-        font-size: 22px;
-        padding: 10px;
-        text-align: center;
+    body {
+        overflow-x: hidden;
     }
 
-    /* ---------- بخش info ---------- */
-    .info {
-        max-width: 95%;  /* پرکردن عرض موبایل */
-        padding: 15px;
-        margin: auto;
-    }
-    .info h1 {
-        font-size: 24px;
-    }
-    .info h2 {
-        font-size: 16px;
-        line-height: 1.8;
-    }
-
-    /* ---------- دکمه کپی IP ---------- */
-    .ip button {
-        padding: 12px 15px;
-        font-size: 16px;
-    }
-
-    /* ---------- بخش‌های edame ---------- */
+    /* همه باکس‌های اصلی */
+    .info,
+    .info-2,
+    .edame-home,
     .edame-1,
     .edame-2,
     .edame-3,
-    .edame-4 {
-        width: 95%;
-        max-width: 800px;
-        margin: 15px auto;
-        padding: 10px;
-        text-align: center;
-    }
-    .edame-1 h2,
-    .edame-2 h2,
-    .edame-3 h2,
-    .edame-4 h2 {
-        font-size: 20px;
-    }
-    .edame-1 h3,
-    .edame-2 h3,
-    .edame-3 h3,
-    .edame-4 h3 {
-        font-size: 14px;
+    .edame-4,
+    .akhbar-home,
+    .khabar-1,
+    .khabar-2,
+    .iron,
+    .gold,
+    .emerald,
+    .diamond,
+    .netherite,
+    .nebrix,
+    .ganone-1,
+    .ganone-2,
+    .ganone-3,
+    .ganone-4,
+    .ganone-5,
+    .ganone-6,
+    .ganone-7,
+    .claim-toturial,
+    .shop-toturial,
+    .money-toturial,
+    .tpa-toturial,
+    .warp-toturial,
+    .faleyat-dis {
+
+        width: 95% !important;
+        max-width: 100% !important;
+        margin: 20px auto !important;
+        height: auto !important;
+        float: none !important;
     }
 
-    /* ---------- فوتر ---------- */
-    .footer {
-        padding: 15px;
-        text-align: center;
-    }
-    .footer-h2 {
-        font-size: 14px;
-        line-height: 1.6;
+    /* متن‌ها */
+    h1, h2, h3, p {
+        float: none !important;
+        margin: 10px auto !important;
+        text-align: center !important;
     }
 
+    /* منو */
+    .menu {
+        height: auto;
+    }
 
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li {
+        padding-right: 0;
+        margin: 10px 0;
+    }
 }
+
 
 @font-face {
     font-family: vazir;
@@ -1291,4 +1283,3 @@ body {
     position: relative;
     top: 3px;
 }
-
