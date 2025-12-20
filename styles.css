@@ -41,7 +41,7 @@ h1, h2, h3 {
 /* ======================
    LAYOUT HELPERS
 ====================== */
-.header {
+header {
   background-color: rgb(54, 55, 55);
 }
 .container {
@@ -216,6 +216,7 @@ button:hover {
     width: calc(33.33% - 15px); /* دسکتاپ بزرگ 3 تا در ردیف */
   }
 }
+
 
 
 
