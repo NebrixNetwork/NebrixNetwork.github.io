@@ -1211,23 +1211,30 @@ body {
     position: relative;
     top: 3px;
 }
-/************ MOBILE FIX (FINAL) ************/
 @media screen and (max-width: 768px) {
 
     html, body {
         width: 100%;
-        overflow-x: hidden;
+        max-width: 100%;
+        overflow-x: hidden !important;
     }
 
     * {
-        box-sizing: border-box;
-    }
-
-    /* همه باکس‌ها */
-    div {
+        box-sizing: border-box !important;
         max-width: 100% !important;
     }
 
+    /* همه عناصر */
+    div, section, header, footer, nav, ul, li {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        float: none !important;
+    }
+
+    /* باکس‌های بزرگ */
     .info,
     .info-2,
     .edame-home,
@@ -1257,11 +1264,9 @@ body {
     .tpa-toturial,
     .warp-toturial,
     .faleyat-dis {
-
-        width: 95vw !important;
+        width: 95% !important;
         margin: 20px auto !important;
         height: auto !important;
-        float: none !important;
     }
 
     /* متن‌ها */
@@ -1269,32 +1274,25 @@ body {
         float: none !important;
         margin: 10px auto !important;
         text-align: center !important;
-        font-size: 90%;
-    }
-
-    /* header */
-    .header,
-    .header h1 {
-        margin: 0 !important;
-        float: none !important;
-        text-align: center;
     }
 
     /* منو */
     .menu {
-        height: auto;
+        height: auto !important;
     }
 
     .menu ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 0 !important;
     }
 
     .menu li {
-        padding-right: 0 !important;
-        margin: 8px 0;
+        padding: 0 !important;
+        margin: 8px 0 !important;
     }
 }
+
 
 
