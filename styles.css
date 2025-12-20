@@ -1211,87 +1211,10 @@ body {
     position: relative;
     top: 3px;
 }
-@media screen and (max-width: 768px) {
-
-    html, body {
-        width: 100%;
-        max-width: 100%;
-        overflow-x: hidden !important;
-    }
-
-    * {
-        box-sizing: border-box !important;
-        max-width: 100% !important;
-    }
-
-    /* همه عناصر */
-    div, section, header, footer, nav, ul, li {
-        width: 100% !important;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-        padding-left: 10px !important;
-        padding-right: 10px !important;
-        float: none !important;
-    }
-
-    /* باکس‌های بزرگ */
-    .info,
-    .info-2,
-    .edame-home,
-    .edame-1,
-    .edame-2,
-    .edame-3,
-    .edame-4,
-    .akhbar-home,
-    .khabar-1,
-    .khabar-2,
-    .iron,
-    .gold,
-    .emerald,
-    .diamond,
-    .netherite,
-    .nebrix,
-    .ganone-1,
-    .ganone-2,
-    .ganone-3,
-    .ganone-4,
-    .ganone-5,
-    .ganone-6,
-    .ganone-7,
-    .claim-toturial,
-    .shop-toturial,
-    .money-toturial,
-    .tpa-toturial,
-    .warp-toturial,
-    .faleyat-dis {
-        width: 95% !important;
-        margin: 20px auto !important;
-        height: auto !important;
-    }
-
-    /* متن‌ها */
-    h1, h2, h3, p {
-        float: none !important;
-        margin: 10px auto !important;
-        text-align: center !important;
-    }
-
-    /* منو */
-    .menu {
-        height: auto !important;
-    }
-
-    .menu ul {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        padding: 0 !important;
-    }
-
-    .menu li {
-        padding: 0 !important;
-        margin: 8px 0 !important;
-    }
+@media (max-width: 768px) {
+  * {
+    outline: 2px solid red !important;
+  }
 }
 
 
