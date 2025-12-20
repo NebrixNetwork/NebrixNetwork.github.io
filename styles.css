@@ -66,7 +66,7 @@ h1, h2, h3 {
    HEADER
 ====================== */
 .header {
-  background: rgb(54, 55, 55);
+  background-color: rgb(54, 55, 55);
   padding: 40px 20px;
   text-align: center;
 }
@@ -207,6 +207,7 @@ button:hover {
     width: calc(33.33% - 15px); /* دسکتاپ بزرگ 3 تا در ردیف */
   }
 }
+
 
 
 
