@@ -64,6 +64,15 @@ header {
   width: 95%;
   max-width: 1000px;
 }
+.info {
+ 
+}
+.info-2 {
+
+}
+.info-2 h1 {
+  color: rgb(238, 237, 220);
+}
 .edame-home.card {
  background-color: rgb(27, 112, 187);
  width: 500px;
@@ -226,6 +235,7 @@ button:hover {
     width: calc(33.33% - 15px); /* دسکتاپ بزرگ 3 تا در ردیف */
   }
 }
+
 
 
 
