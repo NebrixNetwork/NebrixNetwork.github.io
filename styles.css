@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: vazir;
   direction: rtl;
   background: #0e0e0e;
   color: #fff;
@@ -206,4 +206,5 @@ button:hover {
     width: calc(33.33% - 15px); /* دسکتاپ بزرگ 3 تا در ردیف */
   }
 }
+
 
