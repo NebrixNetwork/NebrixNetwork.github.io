@@ -14,7 +14,7 @@
 
     /* ---------- هدر ---------- */
     .header {
-        
+        width: 100%;
     }
     .header h1 {
         font-size: 22px;
@@ -1291,3 +1291,4 @@ body {
     position: relative;
     top: 3px;
 }
+
