@@ -1,184 +1,116 @@
 /* ======================
-   INDEX PAGE
+   RESET & BASE
 ====================== */
-
-/* بخش معرفی */
-.info,
-.info-2 {
-  text-align: center;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* دکمه IP */
-.ip button {
-  margin-top: 15px;
+html {
+  scroll-behavior: smooth;
 }
 
-/* ادامه صفحه (edame) */
-.edame-home {
-  text-align: center;
+body {
+  font-family: sans-serif;
+  direction: rtl;
+  background: #0e0e0e;
+  color: #fff;
+  line-height: 1.8;
+  overflow-x: hidden;
 }
 
-.edame-1,
-.edame-2,
-.edame-3,
-.edame-4 {
-  text-align: center;
-}
-
-/* اخبار */
-.akhbar-home {
-  text-align: center;
-}
-
-.khabar-1,
-.khabar-2 {
-  text-align: center;
-}
-
-/* دسکتاپ */
-@media (min-width: 768px) {
-  .edame-1,
-  .edame-2,
-  .edame-3,
-  .edame-4,
-  .khabar-1,
-  .khabar-2 {
-    max-width: 45%;
-    display: inline-block;
-    vertical-align: top;
-  }
-}
 /* ======================
-   AMOZESH PAGE
+   GLOBAL ELEMENTS
 ====================== */
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
-.toturial,
-.claim-toturial,
-.sell-toturial,
-.buy-toturial {
+ul {
+  list-style: none;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+/* ======================
+   LAYOUT HELPERS
+====================== */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.section {
+  margin: 40px auto;
   text-align: center;
 }
 
-.toturial h2 {
-  margin-bottom: 10px;
+.card {
+  background: #1c1c1c;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 95%;
+  max-width: 1000px;
 }
 
-@media (min-width: 768px) {
-  .toturial,
-  .claim-toturial,
-  .sell-toturial,
-  .buy-toturial {
-    max-width: 800px;
-  }
-}
 /* ======================
-   GAVANIN PAGE
+   HEADER
 ====================== */
-
-.ganone-1,
-.ganone-2,
-.ganone-3,
-.ganone-4,
-.ganone-5,
-.ganone-6,
-.ganone-7 {
-  text-align: right;
-}
-
-.ganone-1 h2,
-.ganone-2 h2,
-.ganone-3 h2 {
-  margin-bottom: 10px;
-}
-
-@media (min-width: 768px) {
-  .ganone-1,
-  .ganone-2,
-  .ganone-3,
-  .ganone-4,
-  .ganone-5,
-  .ganone-6,
-  .ganone-7 {
-    max-width: 900px;
-  }
-}
-/* ======================
-   RANKS PAGE
-====================== */
-
-.rank-iron,
-.rank-gold,
-.rank-diamond,
-.rank-nebrix {
+.header {
+  background: linear-gradient(135deg, #000, #1a1a1a);
+  padding: 40px 20px;
   text-align: center;
 }
 
-.rank-iron h2,
-.rank-gold h2,
-.rank-diamond h2,
-.rank-nebrix h2 {
-  margin-bottom: 10px;
+.header h1 {
+  font-size: 28px;
 }
 
-@media (min-width: 768px) {
-  .rank-iron,
-  .rank-gold,
-  .rank-diamond,
-  .rank-nebrix {
-    max-width: 45%;
-    display: inline-block;
-    vertical-align: top;
-  }
-}
 /* ======================
-   SHOP PAGE
+   MENU (NAVBAR + HAMBURGER)
 ====================== */
-
-.shop-item {
-  text-align: center;
+.menu {
+  background: #151515;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
-.shop-item button {
-  margin-top: 10px;
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
 }
 
-@media (min-width: 768px) {
-  .shop-item {
-    max-width: 300px;
-    display: inline-block;
-    margin: 15px;
-  }
-}
-/* ======================
-   DISCORD PAGE
-====================== */
-
-.discord-box {
-  text-align: center;
-}
-
-.discord-box a {
+.menu li {
   display: inline-block;
-  margin-top: 15px;
-}
-/* ======================
-   FOOTER
-====================== */
-
-.footer {
-  background: #111;
-  text-align: center;
-  padding: 30px 20px;
-  margin-top: 50px;
 }
 
-.footer-h2 {
+.menu a {
+  display: block;
+  padding: 8px 14px;
+  background: #1f1f1f;
+  border-radius: 10px;
   font-size: 14px;
-  opacity: 0.8;
+  transition: 0.3s;
 }
-/* ======================
-   MOBILE HAMBURGER MENU
-====================== */
+
+.menu a:hover {
+  background: #2a8cff;
+}
+
+/* HAMBURGER BUTTON */
 .menu-toggle {
   display: none;
   background: #1f1f1f;
@@ -191,14 +123,33 @@
   margin: 10px;
 }
 
-/* موبایل */
-@media (max-width: 767px) {
-.menu ul {
-  display: flex !important; /* موقت */
-  flex-direction: column;
-  align-items: center;
+/* ======================
+   BUTTONS
+====================== */
+button {
+  background: #f5c400;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 18px;
+  cursor: pointer;
+  font-weight: bold;
 }
 
+button:hover {
+  opacity: 0.9;
+}
+
+/* ======================
+   MOBILE FIRST (up to 767px)
+====================== */
+@media (max-width: 767px) {
+  /* MENU */
+  .menu ul {
+    display: none; /* اول مخفی */
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
 
   .menu ul.active {
     display: flex;
@@ -211,6 +162,129 @@
   .menu li {
     margin: 8px 0;
   }
+
+  /* CARDS & SECTIONS */
+  .card,
+  .section,
+  .info,
+  .info-2,
+  .edame-home,
+  .edame-1,
+  .edame-2,
+  .edame-3,
+  .edame-4,
+  .akhbar-home,
+  .khabar-1,
+  .khabar-2,
+  .toturial,
+  .claim-toturial,
+  .sell-toturial,
+  .buy-toturial,
+  .ganone-1,
+  .ganone-2,
+  .ganone-3,
+  .ganone-4,
+  .ganone-5,
+  .ganone-6,
+  .ganone-7,
+  .rank-iron,
+  .rank-gold,
+  .rank-diamond,
+  .rank-nebrix,
+  .shop-item,
+  .discord-box {
+    width: 95%;
+    margin: 20px auto;
+    text-align: center;
+    float: none;
+  }
+
+  h1, h2, h3, p {
+    margin: 10px auto;
+    text-align: center;
+    float: none;
+  }
 }
 
+/* ======================
+   DESKTOP 768px +
+====================== */
+@media (min-width: 768px) {
+  .header h1 {
+    font-size: 36px;
+  }
 
+  .menu a {
+    font-size: 16px;
+    padding: 10px 18px;
+  }
+
+  .card {
+    padding: 30px;
+  }
+
+  /* INDEX PAGE CARDS */
+  .edame-1,
+  .edame-2,
+  .edame-3,
+  .edame-4,
+  .khabar-1,
+  .khabar-2 {
+    max-width: 45%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  /* TOTURIAL / AMOZESH PAGE */
+  .toturial,
+  .claim-toturial,
+  .sell-toturial,
+  .buy-toturial {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+
+  /* GANAVIN PAGE */
+  .ganone-1,
+  .ganone-2,
+  .ganone-3,
+  .ganone-4,
+  .ganone-5,
+  .ganone-6,
+  .ganone-7 {
+    max-width: 900px;
+    margin: 10px auto;
+  }
+
+  /* RANK PAGE */
+  .rank-iron,
+  .rank-gold,
+  .rank-diamond,
+  .rank-nebrix {
+    max-width: 45%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  /* SHOP */
+  .shop-item {
+    max-width: 300px;
+    display: inline-block;
+    margin: 15px;
+  }
+}
+
+/* ======================
+   FOOTER
+====================== */
+.footer {
+  background: #111;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 50px;
+}
+
+.footer-h2 {
+  font-size: 14px;
+  opacity: 0.8;
+}
