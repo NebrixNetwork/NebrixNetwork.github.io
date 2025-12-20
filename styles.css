@@ -1212,10 +1212,68 @@ body {
     top: 3px;
 }
 @media (max-width: 768px) {
-  * {
-    outline: 2px solid red !important;
+
+  /* جلوگیری از زوم */
+  html, body {
+    overflow-x: hidden !important;
+  }
+
+  /* منو */
+  .menu {
+    height: auto !important;
+  }
+
+  .menu ul {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    padding: 10px !important;
+  }
+
+  .menu li {
+    display: inline-block !important;
+    padding: 0 !important;
+    margin: 5px !important;
+  }
+
+  .menu a {
+    display: inline-block;
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  /* هدر */
+  .header h1 {
+    margin: 0 !important;
+    float: none !important;
+    text-align: center !important;
+    font-size: 22px !important;
+  }
+
+  /* همه باکس‌ها */
+  .info,
+  .info-2,
+  .edame-home,
+  .edame-1,
+  .edame-2,
+  .edame-3,
+  .edame-4,
+  .akhbar-home,
+  .khabar-1,
+  .khabar-2 {
+    width: 95% !important;
+    margin: 20px auto !important;
+    height: auto !important;
+    float: none !important;
+  }
+
+  h1, h2, h3, p {
+    float: none !important;
+    margin: 10px auto !important;
+    text-align: center !important;
   }
 }
+
 
 
 
