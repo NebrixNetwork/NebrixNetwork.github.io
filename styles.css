@@ -159,29 +159,15 @@
     margin-top: 100px !important;
 }
 
-.edame-1 {
+.edame-1,
+.edame-2,
+.edame-3,
+.edame-4 {
     width: 65% !important;
     margin-top: 40px !important;
     height: 11% !important;
 }
 
-.edame-2 {
-    width: 65% !important;
-    margin-top: 40px !important;
-    height: 13% !important;
-}
-
-.edame-3 {
-    width: 65% !important;
-    margin-top: 40px !important;
-    height: 13% !important;
-}
-
-.edame-4 {
-    width: 65% !important;
-    margin-top: 40px !important;
-    height: 13% !important;
-}
 
 .akhbar-home {
     width: 60% !important;
@@ -265,7 +251,309 @@
     width: 95% !important;
 }
 }
+@media screen and (max-width: 1080px) {
 
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+    .header{
+        width: 100% !important;
+        height: 9% !important;
+    }
+    /* همه باکس‌های اصلی */
+    .info,
+    .info-2,
+    .edame-home,
+    .edame-1,
+    .edame-2,
+    .edame-3,
+    .edame-4,
+    .akhbar-home,
+    .khabar-1,
+    .khabar-2,
+    .iron,
+    .gold,
+    .emerald,
+    .diamond,
+    .netherite,
+    .nebrix,
+    .ganone-1,
+    .ganone-2,
+    .ganone-3,
+    .ganone-4,
+    .ganone-5,
+    .ganone-6,
+    .ganone-7,
+    .claim-toturial,
+    .shop-toturial,
+    .money-toturial,
+    .tpa-toturial,
+    .warp-toturial,
+    .faleyat-dis,
+    .info-dis {
+        
+        width: 90% !important;
+        max-width: 100% !important;
+        margin: 20px auto !important;
+        height: auto !important;
+        float: none !important;
+    }
+      
+    .claim-toturial,
+    .shop-toturial,
+    .money-toturial,
+    .tpa-toturial,
+    .warp-toturial {
+        margin-top: 50px !important;
+    }
+       /* متن‌ها */
+    h1, h2, h3, p {
+        float: none !important;
+        margin: 10px auto !important;
+        text-align: center !important;
+    }
+   
+    .header h1 {
+        margin-top: 70px !important;
+        width: 95% !important;
+        float: left !important;
+    }
+
+    .info {
+        margin-top: 70px !important;
+        width: 80% !important;
+    }
+
+    .info-2 {
+        width: 80% !important;
+        margin-top: 60px !important;
+    }
+
+    .info-2 h1 {
+        margin-top: 40px !important;
+        margin-left: 10% !important;
+        float: left !important;
+    }
+
+    .info-2 ul {
+    margin: 0;
+}
+.info-2 li {
+    display: inline-block;
+    margin-top: 20px !important;
+    margin-right: 18% !important;
+    padding-right: 200px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.info-2 ul a {
+    text-decoration: none;
+    background-color: rgb(220, 144, 13) !important;
+    margin-bottom: 0px;
+    float: left !important;
+    color: rgb(0, 0, 0) !important;
+    padding: 5px !important;
+    font-family: vazir !important;
+}
+.info-2 ul a:hover {
+    background-color: rgb(58, 59, 58);
+    color: rgb(34, 126, 201);
+}
+.info-2 li a:active {
+    position: relative;
+    top: 3px;
+}
+
+.menu {
+    background-color: rgb(35, 36, 36);
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 80px !important;
+    font-family: vazir;
+    position: sticky !important;
+    top: 0;
+    z-index: 999;
+}
+.menu ul {
+    margin: 0;
+}
+.menu li {
+    display: inline-block;
+    margin-top: 25px;
+    padding-right: 65px !important;
+    font-size: 15px;
+    margin-right: 4px;
+}
+.menu ul a {
+    text-decoration: none;
+    background-color: rgb(27, 112, 187);
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.menu ul a:hover {
+    background-color: rgb(58, 59, 58);
+    color: rgb(34, 126, 201);
+}
+.menu li a:active {
+    position: relative;
+    top: 3px;
+}
+
+.edame-home {
+    width: 60% !important;
+    margin-top: 100px !important;
+}
+
+.edame-1,
+.edame-2,
+.edame-3,
+.edame-4 {
+    width: 65% !important;
+    margin-top: 50px !important;
+    height: 5% !important;
+}
+
+.akhbar-home {
+    width: 60% !important;
+    margin-top: 70px !important; 
+}
+
+.khabar-1 {
+    width: 65% !important;
+    margin-top: 60px !important;
+    height: 3% !important; 
+}
+
+.khabar-2 {
+    width: 65% !important;
+    margin-top: 60px !important;
+    height: 5% !important; 
+}
+
+.footer {
+    height: 5% !important;
+}
+
+.header-rank {
+    width: 100% !important;
+    height: 200px !important;
+}
+
+.header-rank h1 {
+    margin-top: 35px !important;
+    width: 95% !important;
+    float: left !important; 
+    margin-left: 15px !important;   
+}
+
+.iron,
+.gold,
+.emerald,
+.diamond,
+.netherite,
+.nebrix {
+    margin-top: 100px !important;
+    
+}
+
+.ganone-1,
+.ganone-2,
+.ganone-3,
+.ganone-4,
+.ganone-5,
+.ganone-6,
+.ganone-7{
+    margin-top: 80px !important;
+    height: 10% !important;
+}
+
+.ganone-1 h2,
+.ganone-2 h2,
+.ganone-3 h2,
+.ganone-4 h2,
+.ganone-5 h2,
+.ganone-6 h2,
+.ganone-7 h2 {
+    margin-top: 5% !important;
+    font-size: 150%;
+}
+
+
+.header-discord {
+    width: 100% !important;
+    height: 200px !important;
+}
+
+.header-discord h1 {
+    margin-top: 55px !important;
+    width: 95% !important;
+    float: left !important; 
+    margin-left: 1% !important;   
+}
+
+.info-dis {
+        margin-top: 70px !important;
+        height: 15% !important;
+}
+
+.info-dis  h2{
+        margin-top: 5% !important;
+}
+
+.discord {
+    margin-right: 9% !important;
+    margin-top: 4% !important;
+    font-size: 100px !important;
+}
+
+.faleyat-dis {
+    width: 95% !important;
+    margin-top: 10% !important;
+    height: 15% !important;
+}
+
+.haminjori {
+    width: 95% !important;
+    margin-top: 3% !important;
+}
+
+.header-amozesh,
+.header-shop {
+    width: 100% !important;
+    height: 200px !important;
+}
+
+.header-amozesh h1,
+.header-shop h1 {
+    margin-top: 6% !important;
+    width: 95% !important;
+    float: left !important; 
+    margin-left: 15px !important;   
+}
+
+.claim-toturial,
+.shop-toturial,
+.money-toturial,
+.tpa-toturial,
+.warp-toturial {
+    margin-top: 10% !important;
+    height: 15% !important;
+}
+
+.soon-shop {
+    margin-right: 13% !important;
+}
+}
 
 @font-face {
     font-family: vazir;
@@ -1512,4 +1800,3 @@ body {
     position: relative;
     top: 3px;
 }
-
