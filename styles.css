@@ -1380,6 +1380,39 @@ body {
     position: relative;
     bottom: 15px;
 }
+.site-ganon {
+    background-color: rgb(59, 58, 58);
+    padding: 0;
+    height: 850px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-top: 100px;
+    width: 800px;
+    margin-right: 600px;
+}
+
+.site-ganon h1 {
+    color: white;
+    font-family: vazir;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+    margin-left: 300px; 
+}
+.site-ganon h2 {
+    color: white;
+    font-family: vazir;
+    margin-top: 15px;
+    float: left;
+    margin-left: 100px;
+}
+.site-ganon:hover {
+    position: relative;
+    bottom: 15px;
+}
 .faleyat-dis {
     background-color: rgb(28, 28, 28);
     width: 1000px;
@@ -1799,4 +1832,384 @@ body {
 .info-2 li a:active {
     position: relative;
     top: 3px;
+}
+/* فقط داخل chat-wrapper اعمال می‌شود */
+.chat-wrapper * {
+    box-sizing: border-box;
+    font-family: vazir;
+}
+
+/* قاب اصلی چت */
+.chat-wrapper {
+    width: 1200px;
+    height: 900px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    font-family: vazir;
+    background-color: #fafafa;
+    border-radius:20px ;
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
+}
+
+
+
+.chat-wrapper .chat-container {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.chat-wrapper .message {
+    padding: 10px 15px;
+    border-radius: 12px;
+    max-width: 75%;
+    display: inline-block; /* مهم: block باعث پهن شدن ناخواسته میشه */
+    white-space: normal;
+    word-break: break-word; /* پیام چند خطی مرتب باشه */
+    line-height: 1.5;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+/* پیام کاربر */
+.chat-wrapper .message.user {
+    background-color: #af61d6;
+    color: white;
+    align-self: flex-end;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 12px;
+    direction: rtl;  /* ← این اضافه شد */
+    text-align: right; /* متن راست چین شود */
+}
+
+.chat-wrapper .message.bot {
+    font-family: vazir;
+    font-size: 18px;
+    color: #1b1b1b;
+    align-self: flex-end;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 12px;
+    direction: rtl;  /* ← این اضافه شد */
+    text-align: right; /* متن راست چین شود */
+}
+
+/* ناحیه ورودی پیام */
+.chat-wrapper .input-area {
+    display: flex;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    background-color: #fafafa;
+    width: 70%;
+    margin-left: 170px;
+}
+
+.chat-wrapper .input-area input {
+    flex: 1;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+    transition: border 0.2s;
+}
+
+.chat-wrapper .input-area input:focus {
+    border-color: #4caf50;
+}
+
+.chat-wrapper .input-area button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+.chat-wrapper .message {
+    padding: 10px 15px;
+    border-radius: 12px;
+    max-width: 75%;           /* پیام طولانی حداکثر 75٪ عرض را می‌گیرد */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;    /* حفظ فاصله‌ها و شکستن خطوط */
+    font-size: 14px;
+    line-height: 1.4;
+    display: inline-block;    /* اجازه می‌دهد عرض پیام بر اساس محتوا تغییر کند */
+    box-sizing: border-box;
+}
+
+
+
+.chat-wrapper .input-area button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4caf50; /* رنگ سبز اصلی */
+    color: white;               /* متن سفید */
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s;
+    flex-shrink: 0;             /* جلوگیری از کوچک شدن دکمه */
+}
+
+.chat-wrapper .input-area button:hover {
+    background-color: #45a049;
+}
+
+/* اسکرول نرم */
+.chat-wrapper .chat-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chat-wrapper .chat-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 3px;
+}
+.darbare {
+    background-color: rgb(43, 42, 42);
+    padding: 0;
+    height: 700px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-top: 80px;
+    width: 1200px;
+    margin-right: 400px;
+}
+.darbare p {
+    font-family: vazir;
+    color : white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+.header-darbare {
+    background-color: rgb(54, 55, 55);
+    font-family: vazir;
+    padding: 0;
+    height: 230px;
+}
+.header-darbare h1 {
+    float: left;
+    font-size: 35px;
+    color: rgb(238, 237, 220);
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 870px;
+}
+
+/*Sections Ranks */
+.section-ranks {
+    background-color: rgb(34, 34, 34);
+    width: 800px;
+    margin-top: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.section-ranks img {
+    width: 700px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    margin-right: 5%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.section-Ranks ul {
+    margin: 0;
+}
+.section-Ranks li {
+    display: inline-block;
+    margin-top: -75px;
+    padding-right: 300px;
+    font-size: 30px;
+}
+.section-Ranks ul a {
+    text-decoration: none;
+    background-color: rgb(27, 112, 187);
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.section-Ranks a:hover {
+    background-color: rgb(58, 59, 58);
+    color: rgb(34, 126, 201);
+}
+.section-Ranks li a:active {
+    position: relative;
+    top: 3px;
+}
+
+/*Sections Items */
+.section-Items {
+    background-color: rgb(34, 34, 34);
+    width: 800px;
+    margin-top: -33%;
+    margin-right: 55%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.section-Items img {
+    width: 700px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    margin-right: 5%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.section-items ul {
+    margin: 0;
+}
+.section-items li {
+    display: inline-block;
+    margin-top: -75px;
+    padding-right: 300px;
+    font-size: 30px;
+}
+.section-items ul a {
+    text-decoration: none;
+    background-color: rgb(27, 112, 187);
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.section-items a:hover {
+    background-color: rgb(58, 59, 58);
+    color: rgb(34, 126, 201);
+}
+.section-items li a:active {
+    position: relative;
+    top: 3px;
+}
+.shop-1 {
+    background-color: rgb(50, 50, 50);
+    margin-top: 5%;
+    width: 50%;
+    margin-right: 25%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    height: 250px;
+}
+.shop-1 p {
+    color: white;
+    font-family: vazir;
+    font-size: 35px;
+    margin: 1%;
+}
+
+/*Sections Money */
+.section-money {
+    background-color: rgb(34, 34, 34);
+    width: 800px;
+    margin-top: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.section-money img {
+    width: 700px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    margin-right: 5%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.section-money ul {
+    margin: 0;
+}
+.section-money li {
+    display: inline-block;
+    margin-top: -75px;
+    padding-right: 300px;
+    font-size: 30px;
+}
+.section-money ul a {
+    text-decoration: none;
+    background-color: rgb(27, 112, 187);
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.section-money a:hover {
+    background-color: rgb(58, 59, 58);
+    color: rgb(34, 126, 201);
+}
+.section-money li a:active {
+    position: relative;
+    top: 3px;
+}
+
+/*All sections*/
+.header-sections {
+    background-color: rgb(54, 55, 55);
+    font-family: vazir;
+    padding: 0;
+    height: 250px;
+}
+.header-sections h1 {
+    float: left;
+    font-size: 35px;
+    color: rgb(238, 237, 220);
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 850px;
 }
